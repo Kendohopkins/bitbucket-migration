@@ -7,5 +7,5 @@ pipelines:
             enabled: false
           script:
             - git clone --mirror https://x-token-auth:"$BITBUCKET_VARIABLE"@bitbucket.org/stay-hard/bitbucket-migration.git 
-            - cd bitbucket-migration-demo.git
-            - git push --mirror https://x-token-auth:"$GITHUB_VARIABLE"@github.com/Kendohopkins/bitbucket-migration-demo.git
+            - cd bitbucket-migration.git
+            - git push --mirror https://x-token-auth:"$GITHUB_VARIABLE"@github.com/Kendohopkins/bitbucket-migration.git
